@@ -96,14 +96,14 @@ lazyload:
   loadingImg: /images/loading.gif
 
 hexo_external_link:
-  enable: false
-  enable_base64_encode: false
+  enable: true
+  enable_base64_encode: true
   url_param_name: 'u'
   html_file_name: 'go.html'
   target_blank: false
   link_rel: 'external nofollow noopener noreferrer'
   domain: 'weshau.com' # 如果开启了防盗链
-  safety_chain: true
+  safety_chain: false
 
   
 # Home page setting
